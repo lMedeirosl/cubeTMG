@@ -3,6 +3,7 @@ using CubeTMG.Stats;
 using CubeTMG.Items;
 using CubeTMG.Player;
 using CubeTMG.Core;
+using CubeTMG.Combat;
 
 namespace CubeTMG.UI
 {
@@ -418,7 +419,6 @@ namespace CubeTMG.UI
                 if (item != null)
                 {
                     selectedItemForForge = item;
-                    selectedBackpackIndex = index;
                     inventory.EquipFromBackpack(index);
                 }
             }
